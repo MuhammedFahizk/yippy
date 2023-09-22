@@ -1,0 +1,445 @@
+*{
+    margin-left: 0%;
+    padding-left: 0%;
+    color: #fff;
+}
+@font-face {
+    font-family: 'Brady Bunch Remastered';
+    src: url('Brady\ Bunch\ Remastered.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+body{
+    background-color: black;
+    width: 1278px;
+}
+header{
+    display: block;
+    width: 1275px;
+    height: 105px;
+    background-color: #FE5000;
+    margin-top: px;
+    
+
+
+}
+nav{
+    margin-top: -9px;
+    width: 100%;
+    /* display:inline-block;
+    padding-left: 0px; */
+
+
+}
+ .head1  a img{
+    width: 135px;
+    height: 90px;
+margin-left: 40px;
+margin-top: 10px;
+
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 0px;
+    
+    
+}
+nav li{
+    display:inline-block;
+    margin-top: -30px;
+    padding-left: 10px;
+    font-family: "Brady Bunch Remastered", Sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+    
+    font-family: 'Brady Bunch Remastered', Arial, sans-serif;
+}
+nav li p{
+    
+    font-family: 'Brady Bunch Remastered', Arial, sans-serif;
+    
+}
+nav a{
+   text-decoration: none;
+}
+.head2{
+    margin-top: -52px;
+    margin-left: 260px;
+
+}
+.head4{
+    width: 200px;
+    height: 100px;
+    margin-top: -110px;
+    margin-left: 1180px;
+}
+.head4 img{
+    width:70px;
+}
+.homebg{
+    
+    width: 1275px;
+    height: 428px;
+    position: absolute;
+    width: 1275px;
+overflow-x:scroll;
+white-space: nowrap;
+position: relative;
+display: inline-block;
+
+/* overflow-x: hidden; Hide horizontal scrollbar */
+
+    
+   
+}  
+.homebg::-webkit-scrollbar { 
+    display: none; 
+}
+.homebg img{
+    max-width: 100%;
+    position: relative
+}
+.itemimg{
+    display: inline-block;
+    margin-right: 0px;
+    margin-left:-5px;
+    transition: transform .10s ease-in-out;
+    width: 1273px;
+    height: 428px;
+    box-sizing: border-box;
+    /* width: 120px; */
+
+}
+.itemimg img{
+  
+}
+/* ...............second box........... */
+.second_box{
+    width:1275px;
+    height: 698px;
+    background: #fff;
+    margin-top: -10px;
+    
+}
+.recipe{
+    width: 257px;
+    height: 87px;
+    margin-top: 50px;
+}
+.second_box h2{
+    color: #5F249F;
+    font-family: 'Brady Bunch Remastered', Arial, sans-serif;
+     font-size: 26px;
+    font-weight: normal;
+    line-height: 1;
+}
+.recipybox{
+    align-items: center;
+    width: 1200px;
+    height: 400px;
+    align-items: center;
+}
+.itemresipy{
+    width: 350px;
+    height: 400px;
+    align-items: center;
+   
+}
+.itemresipy img{
+    align-items: center;
+    width: 350px;
+    margin-top: 40px;
+}
+.recipybox li{
+    display:inline-block;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+.recipybox ul{
+    list-style: none;
+}
+  .itemresipy h2{
+    margin-top: -10px;
+    color: black;
+    font-family: "Brady Bunch Remastered", Sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 1.3em;
+
+}
+  /*............therd box  .......*/
+  .terdtop{
+    /* height: 50px;
+    background-color: #DB291D;
+    width: 1275px; */
+    height: 0;
+	width: 0;
+	border-right: 0px solid transparent;
+	border-left: 1275px solid transparent;
+	border-bottom: 50px  solid #DB291D;
+    margin-top: -50px;
+   
+}
+  .therdbox{
+    width: 1275px;
+    height: 698px;
+    background-color:#DB291D ;
+  }
+  .therdbox img{
+    width: 500px;
+    height: 104px;
+    margin-top: 50px;
+  }
+  .therdleft{
+    width: 650px;
+    height:498px ;
+    /* background-color: aqua; */
+    margin-left: 60px;
+  }
+  .therdright{
+    width: 650px;
+    height:498px ;
+    /* background-color: aqua; */
+    margin-left: 600px;
+    margin-top: -716px;
+  }
+  .no ul{
+    list-style: none;
+    padding: 0px;
+  }
+  .no li{
+    display:inline-block;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .therdright img{
+    width: 507px;
+    height: 448px;
+    margin-bottom: 99px;
+    margin-left: 40px;
+  }
+  .therdleft h2{
+    color: #FFFFFF;
+    font-family: "Brady Bunch Remastered", Sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+  }
+  .therdleft h3{
+    color: #FFFFFF;
+    font-family: "Brady Bunch Remastered", Sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    margin-top: -25px;
+  }
+  .therdleft ul{
+    list-style:disc;
+    margin: 0 0 0 0.1em;
+    padding-inline-start: 20px;
+  }
+  .therdleft li{
+    
+    display: block;
+    color: #FFFFFF;
+    font-family: "Myraid Pro", Sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-top: px;
+  }
+  .therdleft h4{
+    
+    display: block;
+    color: #FFFFFF;
+    font-family: "Myraid Pro", Sans-serif;
+    font-size: 15px;
+    text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: px;
+    
+  }
+  .therdleft a{
+    text-decoration: none;
+  
+  }
+  .therdleft .h22{
+    color: #FFFFFF;
+    font-family: "Brady Bunch Remastered", Sans-serif;
+    font-size: 26px;
+
+    font-weight: normal;
+    margin-top: -20px;
+  }
+  .vector{
+    width: 2px;
+    height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+
+    }
+    /* .............socialmedia........... */
+    .socialman{
+      width: 100%;
+      height: 300px;
+      background-color: #fff;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .social{
+      width: 100%;
+      height: 300px;
+      background-image: url(image/bg\ social.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    
+    }
+    .social img{
+      width: 300px;
+      vertical-align: middle;
+      margin: 10px;
+    }
+    .social h2{
+      color: #7C2529;
+      font-family: "Brady Bunch Remastered", Sans-serif;
+      font-size: 26px;
+      line-height: 1;
+      margin-top: -15px;
+      font-weight: normal;
+    }
+    .social h3{
+      color: #7C2529;
+      font-family: "Brady Bunch Remastered", Sans-serif;
+      font-size: 26px;
+      font-weight: normal;
+      margin-top: 60px;
+    }
+    .social i{
+      color:#DB291D;
+    }
+    .facebook{
+      display: inline-block;
+  padding: 10px;
+  background-color: #1877f2; 
+  border-radius: 20%;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 30px;
+  margin-left: 450px;
+      justify-content: center;
+      align-items: center;
+      display:inline-flex;
+  
+    }
+    .twitter{
+      display: inline-block;
+      padding: 10px;
+      background-color:  #1da1f2; /* Example background color */
+      border-radius: 20%;
+      width: 30px;
+      height: 30px;
+      margin-bottom: 30px;
+      margin-left: 60px;
+      justify-content: center;
+      align-items: center;
+      display:inline-flex;
+    }
+    .instegram{
+      display: inline-block;
+      padding: 10px;
+      background: linear-gradient(to bottom left, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+      border-radius: 20%;
+      width: 30px;
+      height: 30px;
+      margin-bottom: 30px;
+      margin-left: 50px;
+      justify-content: center;
+      align-items: center;
+      display:inline-flex;
+    }
+    .youtube{
+      display: inline-block;
+      padding: 10px;
+      background-color: #ff0000; /* Example background color */
+      border-radius: 20%;
+      width: 30px;
+      height: 30px;
+      margin-bottom: 30px;
+      margin-left: 60px;
+      justify-content: center;
+      align-items: center;
+      display:inline-flex;
+    }
+    .instegram i{
+      color: #fff;
+    font-size: 30px;
+    
+    }
+    .facebook i{
+      color: #fff;
+      font-size: 30px;
+    }
+    .youtube i{
+      color: #fff;
+      font-size: 30px;
+    }
+    .twitter i{
+      color: #fff;
+      font-size: 30px;
+    }
+
+
+    /* .......footer....... */
+    footer{
+      width: 100%;
+      height: 400px;
+    }
+    .footercontainer{
+      width: 100%;
+      height: 350px;
+     background-color: #fd1d1d;
+     padding-bottom: 70px;
+    }
+    footer .item{
+      width: 20%;
+      height: 100%;
+      float: left;
+      padding: 10px;
+      box-sizing: border-box;
+
+       }
+       .item .img1{
+        width: 150px;
+        height: 90px;
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      .item h2{
+        color: #FFFFFF;
+        font-family: "Brady Bunch Remastered", Sans-serif;
+        font-size: 31px;
+        font-weight: 500;
+        margin-top: 40px;
+      }
+      .itc{
+        width:70px;
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      .item ul{
+      list-style: none;
+      margin-top: 10px;
+      }
+      .item li{
+        font-family: "Myraid Pro", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+    
+      }
+      .item a{
+        text-decoration: none;
+      }
